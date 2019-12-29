@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 65%;
+    border: 2px solid black;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
