@@ -1,0 +1,41 @@
+h1 {
+    color: green;
+}
+
+h1,
+h2 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.historic_events {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+#web_link {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
