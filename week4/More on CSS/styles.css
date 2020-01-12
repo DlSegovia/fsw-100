@@ -1,0 +1,148 @@
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        
+        .navbar {
+            z-index: 10;
+            position: fixed;
+            top: 10px;
+            padding: 0px;
+            margin: 20px, 0, 20px, 0;
+            width: 100%;
+            height: 60px;
+            font-size: 15px;
+        }
+        
+        .navbar a {
+            padding: 15px;
+        }
+        
+        body .position {
+            font-family: sans-serif
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            margin-top: 0px;
+            text-decoration-line: underline;
+            font-weight: bolder;
+        }
+        
+        .blog1 {
+            position: absolute;
+            height: 300px;
+            width: 900px;
+            top: 70px;
+            left: 25%;
+        }
+        
+        .img1 {
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            height: 200px;
+            width: 300px;
+            border: solid black 1px;
+            padding: 2px;
+        }
+        
+        .blog2 {
+            position: relative;
+            text-align: left;
+            height: 300px;
+            width: 900px;
+            top: 400px;
+            left: 25%;
+        }
+        
+        .img2 {
+            float: right;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            height: 200px;
+            width: 300px;
+            border: solid black 1px;
+            padding: 2px;
+        }
+        
+        .blog3 {
+            position: relative;
+            height: 300px;
+            width: 900px;
+            top: 375px;
+            left: 25%;
+        }
+        
+        .img3 {
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            height: 200px;
+            width: 350px;
+            border: solid black 1px;
+            padding: 2px;
+        }
+        /* -----------------------------------Grid HTML---------------------------------------------*/
+        
+        body .grid {
+            font-family: sans-serif;
+            margin: 0;
+        }
+        
+        .grid-container {
+            display: grid;
+            margin-top: 20px;
+            width: 1000px;
+            margin-left: 25%;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            grid-gap: 1em;
+        }
+        
+        .one {
+            background-color: #f5c6d6;
+            grid-column: 1/5;
+        }
+        
+        .two {
+            background-color: #ee2e84;
+            grid-column: 1fr;
+        }
+        
+        .three {
+            background-color: #ee2e84;
+            grid-column: 1fr;
+        }
+        
+        .four {
+            background-color: #ee2e84;
+            grid-column: 1fr;
+        }
+        
+        .five {
+            background-color: #ee2e84;
+            grid-column: 1fr;
+        }
+        
+        .six {
+            background-color: #85cfd8;
+            grid-column: 1/3;
+        }
+        
+        .seven {
+            background-color: #85cfd8;
+            grid-column: 3/5;
+        }
+        
+        .eight {
+            background-color: #8dc63f;
+            grid-column: 1/4;
+        }
+        
+        .nine {
+            background-color: #e76e34;
+            grid-column: 4/5;
+        }
