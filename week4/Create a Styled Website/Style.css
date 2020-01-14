@@ -1,0 +1,280 @@
+/*Daniel Segovia fsw-100 week4 Create a Styled Website
+ styling of background page color*/
+
+body {
+    background-color: darkorange;
+    background-position: top, bottom;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+
+
+/*End*/
+
+
+/*---------styling of hyper link---------*/
+
+#nav {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #665544;
+    text-align: center;
+}
+
+
+/*this is needed to remove lf side padding */
+
+#nav ul {
+    padding-left: 0px;
+}
+
+#nav li {
+    display: inline;
+    padding: 25px;
+}
+
+
+/*end of hyperlink */
+
+
+/*---styling of logo image and header 1---*/
+
+.img-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    height: 330px;
+    background-image: url(Images/PowerProject-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    padding: 10px;
+    border: 15px ridge brown;
+    border-radius: 20px;
+}
+
+
+/* end of logo image*/
+
+
+/*---styling for header one and body of text---*/
+
+h1 {
+    margin-bottom: auto;
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    color: brown;
+}
+
+.t1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-indent: 50px;
+    text-align: left;
+    padding: 10px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*end of text*/
+
+
+/*---This is the table with header labels with product images---*/
+
+table {
+    display: table;
+    border-spacing: 10px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px ridge brown;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+tr {
+    font-size: 20px;
+    color: brown;
+    height: 70px;
+}
+
+.img-chainsaws {
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border: 10px ridge brown;
+    margin-bottom: 100px;
+    background-image: url(Images/Cordless-Chainsaws.jpg);
+    background-size: cover;
+}
+
+.img-lawnmowers {
+    width: 140px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border: 10px ridge brown;
+    background-image: url(Images/Cordless-Lawnmowers.jpg);
+    background-size: cover;
+}
+
+.img-leaf-blowers {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border: 10px ridge brown;
+    margin-bottom: 50px;
+    background-image: url(Images/Cordless-Leaf-Blowers.jpg);
+    background-size: cover;
+}
+
+.img-pole-saws {
+    width: 290px;
+    height: 75px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    border: 10px ridge brown;
+    margin-bottom: 75px;
+    background-image: url(Images/Cordless-Pole-Saws.jpg);
+    background-size: cover;
+}
+
+
+/*end of table*/
+
+
+/*styling of container and text for addon tools*/
+
+.container .box {
+    display: table;
+    width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+    border-collapse: collapse;
+}
+
+
+/*to inclose the fram all the way around only l-r borders used*/
+
+.box-row1 {
+    font-family: serif;
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    width: 1150px;
+    margin-bottom: 40px auto;
+    border-left: 10px ridge brown;
+    border-right: 10px ridge brown;
+}
+
+.box-row2 .box-cell {
+    display: table-cell;
+    font-family: sans-serif;
+    text-align: left;
+    width: 1700px;
+    margin: 10px auto;
+    padding: 20px;
+    border-collapse: collapse;
+    border: 10px ridge brown;
+}
+
+
+/* end of container*/
+
+
+/*----styling for sign up form----*/
+
+form {
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 5px solid brown;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+    margin: 5px
+}
+
+.name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.email {
+    font-size: 20px;
+    text-align: center;
+}
+
+.gender {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}
+
+.center {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center label {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+.button {
+    background-color: #c0392b;
+    border: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px;
+    border: 5px solid brown;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttonHolder {
+    text-align: center;
+}
+
+
+/*end of form*/
+
+
+/*-----------address block----------*/
+
+.address {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*end of block*/
