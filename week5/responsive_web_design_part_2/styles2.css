@@ -1,0 +1,146 @@
+/* Daniel Segovia fsw-100 week5 assignment Responsive Web Design, Part II */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*----------------------------------Phone 425px----------------------------------*/
+
+#grid-container {
+    display: grid;
+    /* padding: 5px; */
+    grid-gap: 5px;
+    font-size: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-rows: repeat(4, auto-fit);
+}
+
+.header {
+    background-color: #f5c6d6;
+    grid-column: 1/5;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.sidebar {
+    background-color: #ee2e84;
+    border: 5px solid white;
+    grid-column: 1/5;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: #ee2e84;
+    border: 5px solid white;
+    grid-column: 1/5;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.sidebar2 {
+    background-color: #ee2e84;
+    border: 5px solid white;
+    grid-column: 1/5;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #ee2e84;
+    border: 5px solid white;
+    grid-column: 1/5;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+
+/*----------------------------------tablet 768px----------------------------------*/
+
+@media only screen and (min-width: 728px) {
+    #grid-container {
+        display: grid;
+        grid-gap: 5px;
+        font-size: 35px;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-rows: repeat(4, auto-fit);
+    }
+    .header {
+        padding-left: 10px;
+        background-color: #f5c6d6;
+        grid-column: 1/5;
+        border: 5px solid white;
+    }
+    .sidebar {
+        background-color: #ee2e84;
+        grid-column: 1/2;
+        padding-left: 5px;
+        border: 5px solid white;
+    }
+    .content {
+        background-color: #ee2e84;
+        grid-column: 2/5;
+        padding-left: 5px;
+        border: 5px solid white;
+    }
+    .sidebar2 {
+        background-color: #ee2e84;
+        grid-column: 1/5;
+        padding-left: 5px;
+        border: 5px solid white;
+    }
+    .footer {
+        background-color: #ee2e84;
+        grid-column: 1/5;
+        padding-left: 5px;
+        border: 5px solid white;
+    }
+}
+
+
+/*----------------------------------labtop 1024px----------------------------------*/
+
+@media only screen and (min-width: 1024px) {
+    #grid-container {
+        display: grid;
+        grid-gap: 5px;
+        font-size: 35px;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-template-rows: repeat(4, auto-fit);
+    }
+    .header {
+        padding-left: 5px;
+        background-color: #f5c6d6;
+        grid-column: 1/5;
+        padding: 5px;
+        border: 5px solid white;
+    }
+    .sidebar {
+        background-color: #ee2e84;
+        grid-column: 1/2;
+        padding-left: 5px;
+        border: 5px solid white;
+    }
+    .content {
+        background-color: #ee2e84;
+        grid-column: 2/4;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 5px solid white;
+    }
+    .sidebar2 {
+        background-color: #ee2e84;
+        grid-column: 4/5;
+        padding-left: 5px;
+        border: 5px solid white;
+    }
+    .footer {
+        background-color: #ee2e84;
+        grid-column: 1/5;
+        padding-left: 5px;
+        border: 5px solid white;
+    }
+}
