@@ -3,6 +3,10 @@
         font-size: 0px;
     }
     
+    #control {
+        position: absolute;
+    }
+    
     #container {
         position: absolute;
         left: 25%;
