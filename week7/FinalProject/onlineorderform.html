@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title> Rucker's on Line Order Form </title>
+	<link rel="stylesheet" type="text/css" href="onlinestyle.css">
+</head>
+
+<body>
+	
+	<header>
+		<div class="navbar">
+				<a href="index.html">Home</a>
+				<a href="onlineorderform.html">On Line Order Form</a>
+				<a href="menu.html">Menu</a>
+				<a href="specials.html">Specials</a>
+				<a href="aboutUs.html">About Us</a>
+				<a href="staff@ruckers.com">Contact Us</a>
+				<span><a> Phone Number: (602) 789-5672</a></span>
+			</div>
+	</header>
+	
+	<table class="steakNfish">
+		<tr>
+			<th><img id="imgSteak" src="Images/steak-dinner.jpg" alt="Steak dinner"></th>
+			 <td class="steak"><b> $20.79	Cut fresh and trimmed.</b><br><br>• 12 ounces of our most juicy and flavorful steak cut fresh from the rib loin and distinguished by its rich marbling that runs through.
+			</td>
+			<td class="fish"><b>$11.99 Grilled Salmon Fillet</b><br><br>• Norwegian salmon grilled moist
+				and tender, then topped with our lemon pepper butter
+			</td>
+		</tr>
+		<tr>
+			<th><img id="imgFish" src="Images/fish-dinner.jpg" alt="Fish dinner"></th>
+		</tr>
+	</table>
+	
+	<table class="chickenNsalad">
+		<tr>
+			<th><img id="imgChicken" src="Images/chicken-dinner.jpg" alt="Chicken dinner" ></th>
+			<td class="chicken">$12.29<br>
+				A generously seasoned, then grilled to perfection.
+			</td>
+			<th><img id="imgSalad" src="Images/salad-dinner.jpg" alt="Salad dinner" ></th>
+			<td class="salad"><b>$10.49 Grilled Chicken Salad </b><br><br> • Crisp cold greens, strips of marinated chicken,
+				jack cheese, egg, tomato, bacon, red onions and made-from-scratch croutons.
+			</td>
+		</tr>
+	</table>
+	
+	<table class="cakeNice_cream">
+		<tr>
+			<th><img id="imgCake" src="Images/caramel-mousse-cake.jpg" alt="Caramel Mousse cake" ></th>
+		</tr>
+		<tr>
+			<td class="dessertText"><b>$4.79 Caramel Mousse Cake<br> &amp; Prickly Pear Sundae</b><br><br> •A chocolate lover’s dream come true! Two supremely rich layers of dense cake are filled with fluffy chocolate mousse and a layer of thick caramel. 
+			</td>
+		</tr>
+		<tr>
+			<th><img id="imgIcecream" src="Images/ice-cream.jpg" alt="Prickly Pear Sundae" ></th>
+		</tr>
+	</table>
+	
+	<div class="container1">
+		<form id="orderForm" action="/action_page.php">
+			<h1 id="h1"> Rucker's <br> Online Order Form</h1>
+			<p class="hours"><i><b>Each entree is served with two sides and a salad</b><br><br>
+				Rucker’s is open seven days a week<br>Monday through Saturday from 11 AM to 10 PM<br> and on Sunday from 12 PM through 8 PM.</i>
+			</p>
+			<div class="foodChoice">
+			<h4 id="h4-steak">Your Steak</h4>
+			<select id="slt-steak">
+				<option>Select</option>
+				<option>$19.29 Sirloin</option>
+				<option>$29.79 New York Strip</option>
+				<option>$31.79 Prime Rib</option>
+				<option>$24.49 T-Bone</option>
+				<option>$27.99 Porterhouse</option>
+			</select>
+			<div class="steakQty">
+				<div class="cssCircle minusSign" style="padding-top:00px">&#8211;
+				</div>
+				<input type="text" name="name" value="1">
+				<div class="cssCircle plusSign">&#43;
+				</div>
+			</div>
+			<div class="pickSides1">
+				<h4 id="h4-side1"><b> Pick Your Sides </b></h4><br>
+				<select id="slt-side1">
+					<option>Select</option>
+					<option> $2.49 Applesauce</option>
+					<option>$2.49 Baked Potato </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Buttered Corn </option>
+					<option>$2.49 Fresh Vegetables </option>
+					<option>$2.49 Green Beans </option>
+					<option>$2.49 Mashed Potatoes </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Seasoned Rice </option>
+					<option>$2.49 Steak Fries </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Sweet Potato </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.99 Texas Red Chili (Cup) </option>
+				</select>
+			</div>
+
+			<h4 id="h4-chicken">Your Chicken</h4>
+			<select id="chicken">
+				<option>Select</option>
+				<option>$18.95 Mammoth Chicken</option>
+				<option>$18.95 Charbroiled Chicken</option>
+				<option>$18.95 Chicken Kabob</option>
+			</select>
+			<div class="chickenQty">
+				<div class="cssCircle minusSign" style="padding-top:00px">&#8211;
+				</div>
+				<input type="text" name="name" value="1">
+				<div class="cssCircle plusSign">&#43;
+				</div>
+			</div>
+			<div class="pickSides2">
+				<h4 id="side2"><b> Pick Your Sides </b></h4><br>
+				<select id="pickSides2">
+					<option>Select</option>
+					<option> $2.49 Applesauce</option>
+					<option>$2.49 Baked Potato </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Buttered Corn </option>
+					<option>$2.49 Fresh Vegetables </option>
+					<option>$2.49 Green Beans </option>
+					<option>$2.49 Mashed Potatoes </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Seasoned Rice </option>
+					<option>$2.49 Steak Fries </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Sweet Potato </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.99 Texas Red Chili (Cup) </option>
+				</select>
+			</div>
+			<h4 id="h4-fish"> Your Fish</h4>
+			<select id="fish">
+				<option>Select</option>
+				<option>$11.99 Grilled Salmon </option>
+				<option>$11.99 Fried Catfish </option>
+			</select>
+			<div class="fishQty">
+				<div class="cssCircle minusSign" style="padding-top:00px">&#8211;
+				</div>
+				<input type="text" name="name" value="0">
+				<div class="cssCircle plusSign">&#43;
+				</div>
+			</div>
+			<div class="pickSides3">
+				<h4 id="side3"><b> Pick Your Sides </b></h4><br>
+				<select id="pickSides3">
+					<option>Select</option>
+					<option> $2.49 Applesauce</option>
+					<option>$2.49 Baked Potato </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Buttered Corn </option>
+					<option>$2.49 Fresh Vegetables </option>
+					<option>$2.49 Green Beans </option>
+					<option>$2.49 Mashed Potatoes </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Seasoned Rice </option>
+					<option>$2.49 Steak Fries </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.49 Sweet Potato </option>
+					<option>+99¢ Loaded </option>
+					<option>$2.99 Texas Red Chili (Cup) </option>
+				</select>
+			</div>
+			
+			<h4 id="h4-salad"> Your Salad</h4>
+			<select id="salad">
+				<option>Select</option>
+				<option>$3.99 Side Salad</option>
+				<option>$10.49 Dinner Salad</option>
+			</select>
+			<div class="saladQty">
+				<div class="cssCircle minusSign" style="padding-top:00px">&#8211;
+				</div>
+				<input type="text" name="name" value="1">
+				<div class="cssCircle plusSign">&#43;
+				</div>
+			</div>
+			<h4 id="h4-dessert"> Your Dessert</h4>
+			<select id="dessert">
+				<option>Select</option>
+				<option>$3.49 Prickly Pear Sundae</option>
+				<option>$4.79 Caramel Mousse Cake</option>
+			</select>
+			<div class="dessertQty">
+				<div class="cssCircle minusSign" style="padding-top:00px">&#8211;
+				</div>
+				<input type="text" name="name" value="1">
+				<div class="cssCircle plusSign">&#43;
+				</div>
+			</div>
+		</div>
+			<div>
+				<label class="comments">Any Special Instructions.</label>
+				<div class="textbox">
+					<textarea id="comments" name="message" maxlength="270"></textarea><br>
+				</div>
+				<div class="orderReview">
+					<h2>Order Review</h2>
+				<dl>
+				 <dt>Entree 1</dt>
+					 <dd>New York Strip<span style="padding-left:80px">$29.97</span></dd>
+					<dd>Seasoned Rice<span style="padding-left:85px">$0.00</span></dd>
+					<dd>Baked Potato<span style="padding-left:97px">$0.00</span></dd>
+					<dd>Caesar Salad<span style="padding-left:97px">$0.00</span></dd>
+				<dt>Dessert 1</dt>
+					<dd> Caramel Mousse Cake<span style="padding-left:32px">$4.97</span></dd><br>
+					<dt><u><b>Subtotal</b></u></dt>
+					<dd><span style="padding-left:190px"><u><b>$34.94</b></u></span></dd><br>
+				  <dt>Entree 2</dt>
+				  <dd>Charbroiled Chicken<span style="padding-left:45px">$18.95</span></dd>
+					<dd>Mashed Potatoes<span style="padding-left:75px">$0.00</span></dd>
+					<dd>Baked Potato<span style="padding-left:104px">$0.00</span></dd>
+					<dd>Caesar Salad<span style="padding-left:103px">$0.00</span></dd>
+				<dt>Dessert 2</dt>  
+					<dd>Prickly Pear Sundae<span style="padding-left:55px">$3.49</span></dd><br>
+					<dt><u><b>Subtotal</b></u></dt>
+					<dd><span style="padding-left:195px"><u><b>$22.44</b></u></span></dd>
+					<dt><b>Total</b></dt>
+					<dd><span style="padding-left:195px"><u><b>$57.38</b></u></span></dd>
+				</dl>
+				</div>	
+			</div>
+		
+	</form>
+	
+</div>
+	<button class="open-button" onclick="openForm(myForm)">Contiue to Checkout</button>
+		 
+<!----------------------------------------------------payment form-------------------------------------------------->
+	<div class="form-popup" id="myForm">
+		<form action="/action_page.php" class="form-container">
+			<div class="payments">
+				<h2>Payment Information</h2>
+
+				<div class="row1">
+					<label for="fname"><i class="fa fa-user"></i> Full Name:</label>
+					<input type="text" id="fname" name="firstname" placeholder="full name">
+					<label for="email"><i class="fa fa-envelope"></i> Email:</label>
+					<input type="text" id="email" name="email" placeholder="email"><br><br>
+				</div>
+				<div class="row2">
+					<label for="adr"><i class="fa fa-address-card-o"></i> Address:</label>
+					<input type="text" id="adr" name="address" placeholder="">
+					<label for="city"><i class="fa fa-institution"></i> City:</label>
+					<input type="text" id="city" name="city" placeholder=""><br><br>
+				</div>
+				<div class="row3">
+					<label for="apt#">Apt./Ste:</label>
+					<input type="text" id="apt" name="apt" placeholder="">
+					<label for="state">State:</label>
+					<input type="text" id="state" name="state" placeholder="">
+					<label for="zip">Zip:</label>
+					<input type="text" id="zip" name="zip" placeholder="">
+				</div>
+
+				<div class="row4">
+					<label for="payname">Accepted Cards</label>
+					<div class="icon-container">
+						<i class="fa fa-cc-visa" style="color:navy;"></i>
+						<i class="fa fa-cc-amex" style="color:blue;"></i>
+						<i class="fa fa-cc-mastercard" style="color:red;"></i><br><br>
+					</div>
+				</div>
+
+				<div class="row5">
+					<label for="cname">Name on Card:</label>
+					<input type="text" id="cname" name="cardname" placeholder="full name">
+					<label for="ccnum">Credit card number:</label>
+					<input type="text" id="ccnum" name="cardnumber" placeholder="####-####-####-####"><br><br>
+				</div>
+				<div class="row6">
+					<label for="expmonth">Exp Month:</label>
+					<input type="text" id="expmonth" name="expmonth" placeholder="month">
+					<label for="expyear">Exp Year:</label>
+					<input type="text" id="expyear" name="expyear" placeholder="year">
+					<label for="cvv">CVV:</label>
+					<input type="password" id="cvv" name="cvv" placeholder="***">
+				</div>	
+				<div class="row7">	
+					<button type="reset" class="btnOrder" onclick="closeForm()">Place Order</button>
+					<button type="reset" class="btnCancel" onclick="closeForm()">Cancel</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script>
+function openForm() {
+	document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+	document.getElementById("myForm").style.display = "none";
+}
+		
+	</script>
+	
+</body>
+
+</html>

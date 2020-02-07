@@ -1,0 +1,575 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px; 
+}
+html { 
+  background-image:url(Images/restaurant-interior.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+* {
+	box-sizing: border-box;
+	
+}
+
+
+
+/*----------------------fix-navbar------------------*/
+
+.navbar {
+	z-index: 2;
+	position: fixed;
+	overflow: hidden;
+	background-image: url(Images/wild-west-clipart-borders-49.jpg);
+	top: 0;
+	width: 100%;
+
+}
+.navbar a {
+	float: left;
+	display: block;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+	height: 50px;
+	padding: 15px 25px 0 25px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.navbar a:hover {
+	color: red;
+}
+
+span{
+	display: inline-block;
+	float: right;
+}
+/*-------------------Images and description-------------------*/
+
+.steakNfish{
+	position: absolute;
+	top: 60px;
+	left: 10px;
+	width: 240px;
+	height: 560px;
+}
+#imgSteak{
+	position: absolute;
+	border-radius: 20px;
+	width: 240px;
+	left: 0px;
+	top:00px;
+}
+.steak{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	text-align: center;
+	border-radius: 20px;
+	top: 165px;
+	left: 00px;
+	width: 240px;
+}
+#imgFish{
+	position: absolute;
+	border-radius: 20px;
+	width: 240px;
+	top: 280px;
+	left: 0px;
+}
+.fish{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	text-align: center;
+	border-radius: 20px;
+	top: 450px;
+	left: 00px;
+	width: 240px;
+}
+.chickenNsalad{
+	position: absolute;
+	top: 60px;
+	left: 1300px;
+	width: 240px;
+	height: 560px;
+}
+#imgChicken{
+	position: absolute;
+	border-radius: 20px;
+	width: 240px;
+	top: 0px;
+	right: 0px;
+}
+.chicken{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	text-align: center;
+	border-radius: 20px;
+	width: 240px;
+	top: 165px;
+	right: 0px;
+}
+#imgSalad{
+	position: absolute;
+	border-radius: 20px;
+	width: 240px;
+	right: 0px;
+	top: 225px;
+}
+.salad{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	text-align: center;
+	border-radius: 20px;
+	width: 240px;
+	right: 0px;
+	top: 390px;
+}
+
+#imgCake{
+	position: absolute;
+	border-radius: 20px;
+	width: 240px;
+	right: 390px;;
+	top: 60px;
+}
+.dessertText{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	text-align: center;
+	border-radius: 20px;
+	width: 300px;
+	top: 60px;
+	left: 640px;
+}
+#imgIcecream{
+	position: absolute;
+	border-radius: 20px;
+	width: 240px;
+	top: 60px;
+	left: 390px;
+}
+
+
+/*---------------------for the order form------------------------*/
+
+.container1 #orderForm{
+	border-radius: 20px;
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	background-size: cover;
+	left: 470px;
+	top: 260px;
+	width: 650px;
+	height: 850px;
+	
+		
+}
+#h1{
+	position: absolute;
+	width: 100%;
+	top: 20px;
+	margin: 0;
+	color: red;
+	text-align: center;
+}
+.hours{
+	position: absolute;
+	top: 100px;
+	width: 100%;text-align: center;
+	
+}
+
+#h4-steak{
+	position: absolute;
+	height: 20px;
+	font-weight: 600;
+	top: 210px;
+	left: 30px;	
+}
+#slt-steak {
+	position: absolute;
+	margin: 0px;
+	height: 25px;
+	top: 250px;
+	left: 30px;
+}
+.steakQty {
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	top: 250px;
+	left: 190px;
+}
+
+.steakQty input {
+	text-align: center;
+	width: 17px;
+	height: 20px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 600;
+}
+
+#h4-side1{
+	position: absolute;
+	height: 25px;
+	top: 260px;
+	left: 30px;
+}
+#slt-side1{
+	position: absolute;
+	height: 25px;
+	top: 300px;
+	left: 30px;
+}
+#h4-chicken {
+	position: absolute;
+	margin: 0px;
+	font-weight: 600;
+	top: 330px;
+	left: 30px;
+}
+
+#chicken {
+	position: absolute;
+	height: 25px;
+	top: 350px;
+	left: 30px;
+}
+
+.chickenQty {
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	top: 350px;
+	left: 225px;
+}
+
+.chickenQty input {
+	text-align: center;
+	width: 17px;
+	height: 20px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 600;
+}
+.pickSides2{
+	position: absolute;
+	top: 380px;
+	left: 30px;
+}
+#side2{
+	position: absolute;
+	top: -20px;
+}
+#pickSides2{
+	height: 25px;
+}
+#h4-fish {
+	position: absolute;
+	margin: 0px;
+	font-weight: 600;
+	top: 430px;
+	left: 30px;
+}
+
+#fish {
+	position: absolute;
+	height: 25px;
+	top: 450px;
+	left: 30px;
+}
+
+.fishQty {
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	top: 450px;
+	left: 190px;
+}
+
+.fishQty input {
+	appearance: none;
+	border: none;
+	text-align: center;
+	width: 17px;
+	height: 20px;
+	margin-left: 2px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 600;
+}
+.pickSides3{
+	position: absolute;
+	top: 480px;
+	left: 30px;
+}
+#side3{
+	position: absolute;
+	top: -20px;
+}
+#pickSides3{
+	height: 25px;
+}
+#h4-salad {
+	position: absolute;
+	font-weight: 600;
+	top: 515px;
+	left: 30px;
+}
+
+#salad {
+	position: absolute;
+	height: 25px;
+	top: 555px;
+	left: 30px;
+}
+
+.saladQty {
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	top: 555px;
+	left: 180px;
+}
+
+.saladQty input {
+	appearance: none;
+	border: none;
+	text-align: center;
+	width: 17px;
+	height: 20px;
+	margin-left: 2px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 600;
+}
+
+#h4-dessert {
+	position: absolute;
+	font-weight: 600;
+	top: 570px;
+	left: 30px;
+}
+
+#dessert {
+	position: absolute;
+	height: 25px;
+	top: 610px;
+	left: 30px;
+}
+
+.dessertQty {
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	top: 610px;
+	left: 230px;
+
+}
+
+.dessertQty input {
+	appearance: none;
+	border: none;
+	text-align: center;
+	width: 17px;
+	height: 20px;
+	margin-left: 2px;
+	font-size: 16px;
+	color: #43484D;
+	font-weight: 600;
+}
+/*--------------------------------for plus and minus signs and count---------------------------------------*/
+.cssCircle {
+	border-radius: 999px;
+	width: 13px;
+	height: 13px;
+	padding: 0px;
+	background: #779BCA;
+	border: 1px solid #003580;
+	color: #003580;
+	text-align: center;
+	transition: background 0.2s linear;
+	transition: color 0.2s linear;
+	font: 13px Arial, sans-serif
+}
+
+.cssCircle:hover {
+	background: #3F69A0;
+	cursor: pointer;
+}
+
+.minusSign {
+	line-height: 0.9em;
+	margin-bottom: 1px;
+	float: left
+}
+
+.plusSign {
+	line-height: 1.1em;
+	float: right
+}
+
+.minusSign:hover,
+.plusSign:hover {
+	color: white;
+}
+/*-------------------for text box -------------------------------*/
+.comments {
+	position: absolute;
+	font-size: 15px;
+	font-weight: 600;
+	top: 680px;
+	left: 25px;
+}
+
+.textbox #comments {
+	position: absolute;
+	height: 120px;
+	width: 300px;
+	left: 20px;
+	top: 700px;
+}
+
+ 
+/*----------------------for total of order-------------------------*/
+
+.orderReview{
+	position: absolute;
+	top: 230px;
+	left: 330px;
+	margin-left: 0px;
+	width: 300px;
+	height: 530px;
+	line-height: 20px;
+	font-family: sans-serif;
+}
+
+/*--------this is the button for popup Payment form---------*/
+.open-button{
+	position: absolute;
+	top: 1050px;
+	left: 865px;
+	height: 30px;
+	width: 180px;
+	background-color: white;
+	color: black;
+    font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+	opacity: .6;
+}
+/*----------------The popup Payment form - hidden by default-----------*/
+.form-popup {
+	position: absolute;
+	border-radius: 20px;
+	z-index: 5;
+	display: none;
+	top: 500px;
+	background-image: url(Images/Background.jpg);
+	background-size: cover;
+	bottom: 10;
+	padding: 20px;
+	right: 465px;
+	border: 3px solid #f1f1f1;
+	width: 650px;
+	height: 550px;
+	
+}
+ 
+/* Addjustment input fields */
+.row1 input[type=text],
+.row2 input[type=text] {
+	width: 200px;
+	height: 30px;
+	padding: 5px;
+	margin: 5px 0 10px 0;
+	
+	background-color: #ddd;
+}
+.row3 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.row3 input[type=text] {
+	width: 50px;
+	height: 20px;
+	margin: 10px 0 10px 0;
+	
+	background-color: #ddd;
+}
+.row4 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.row5 input[type=text] {
+	width: 150px;
+	height: 30px;
+	padding: 5px;
+	margin: 5px 0 10px 0;
+	background-color: #ddd;
+}
+
+.row6 input[type=text],
+[type=password] {
+	width: 50px;
+	height: 20px;
+	margin: 10px 0 10px 0;
+	padding-left: 5px;
+	background-color: #ddd;
+}
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus 
+{
+	background-color: #ddd;
+	
+}
+/* Set a style for the continue to checkout/place order button */
+.row7 .btnOrder {
+	position: absolute;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	top: 500px;
+	left: 65px;
+	width: 180px;
+	height: 30px;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.row7 .btnCancel {
+	position: absolute;
+	background-color: red;
+	color: white;
+	border: none;
+	cursor: pointer;
+	top: 500px;
+	left: 365px;
+	width: 180px;
+	height: 30px;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+

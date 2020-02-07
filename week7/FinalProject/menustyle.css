@@ -1,0 +1,303 @@
+@font-face{
+	src: url(fonts/RougeScript-Regular.ttf);
+	font-family: script;
+}
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(Images/restaurant-table-with-glasses.jpg);
+	background-position: center;
+	margin: 0px;
+	height: 1100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*---------Fix Navbar---------*/
+
+.navbar {
+	z-index: 2;
+	position: fixed;
+	overflow: hidden;
+	background-image: url(Images/wild-west-clipart-borders-49.jpg);
+	top: 0;
+	width: 100%;
+
+}
+.navbar a {
+	float: left;
+	display: block;
+	color: black;
+	font-weight: 600;
+	text-align: center;
+	height: 50px;
+	padding: 15px 25px 0 25px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.navbar a:hover {
+	color: red;
+}
+
+span{
+	display: inline-block;
+	float: right;
+}
+
+
+.menuCover{
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: 250px;
+	left: 550px;
+    height: 700px;
+	width: 520px;
+}
+
+.ruckers-img{
+    position: absolute;
+	width: 450px;
+    top: 580px;
+    left: 585px;
+}
+
+
+/*--------this is the button for popup Payment form---------*/
+.open-button{
+	position: absolute;
+	bottom:-180px;
+	left: 900px;
+	height: 50px;
+	width: 150px;
+	font-family: script;
+	font-size: 35px;
+	background-color: #43484D;
+	color: #DAA520;
+	border-radius: 10px;
+	cursor: pointer;
+	opacity: .4;
+}
+/*----------------The popup Payment form - hidden by default-----------*/
+.form-popup {
+	position: absolute;
+	border-radius: 20px;
+	z-index: 1;
+	display: none;
+	top: 65px;
+	background-image: url(Images/wild-west-clipart-borders-49.jpg);
+	background-size: cover;
+	padding: 20px;
+	right: 210px;
+	border: 3px solid #f1f1f1;
+	width: 1150px;
+	height: 950px;
+	
+}
+.menu-logo{
+	z-index: 2;
+	display: block;
+  	text-align: center;
+	top: 15px;
+}
+.menu-logo img{
+	border-style: ridge;
+	border-radius: 15px;
+	border-width: 5px;
+	border-color: red;
+	
+}
+
+/*-----------------wine list-------------------*/
+
+.wineList {
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 5px;
+	left: 10px;
+	width: 350px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+
+
+/*---------------beer list-----------------*/
+
+.beerList {
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 450px;
+	left: 10px;
+	width: 350px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+
+/*----------------steak dinner list-------------*/
+
+.steakDinners{
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 180px;
+	left: 425px;
+	width: 300px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+/*----------------chicken dinner list-------------*/
+.chickenDinners{
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 490px;
+	left: 425px;
+	width: 300px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+
+/*----------------fish dinner list-------------*/
+.fishDinners{
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 720px;
+	left: 425px;
+	width: 300px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+
+/*----------------entree sides list-------------*/
+.sides{
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 5px;
+	left: 780px;
+	width: 350px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+
+/*----------------salad list-------------*/
+.salad{
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 500px;
+	left: 780px;
+	width: 350px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+
+/*----------------dessert list-------------*/
+.dessert{
+	background-color: white;
+	position: absolute;
+	border-radius: 15px;
+	padding: 5px;
+	font-size: 12px;
+	top: 720px;
+	left: 780px;
+	width: 350px;
+	line-height: 20px;
+	border-style: dotted;
+	border-color: red;
+	border-width: thick;
+}
+
+
+#wine,
+#beer,
+#steak,
+#chicken,
+#fish,
+#sides,
+#salad,
+#dessert{
+    background-image: url(Images/wild-west-clipart-borders-49.jpg);
+    height: 45px;
+	padding: 15px;
+	margin: 0;
+    border-radius: 10px;
+	text-align: center;
+	width: 100%;
+}
+ dd{
+    display: list-item;
+	list-style-type: disc;
+}
+dt{
+   font-weight: 800; 
+}
+
+/* Set a style for the continue to checkout/place order button */
+.close {
+	position: absolute;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	top: 900px;
+	right: 50px;
+	width: 180px;
+	height: 45px;
+	border-radius: 15px;
+	opacity: 0.8;
+}
+.close p{
+	margin: 0px;
+}
+
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+	opacity: 1;
+}
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title> Rucker's on Line Order Form </title>
+	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+</head>
+
+<body>
+	<header>
+
+		<div class="navbar">
+				<a href="index.html">Home</a>
+				<a href="onlineorderform.html">On Line Order Form</a>
+				<a href="menu.html">Menu</a>
+				<a href="specials.html">Specials</a>
+				<a href="aboutUs.html">About Us</a>
+				<a href="staff@ruckers.com">Contact Us</a>
+				<span><a> Phone Number: (602) 789-5672</a></span>
+			</div>
+	</header>
+
+		 
+<!--header of home page-->
+	<h1> Rucker's </h1>
+	<div class="bgnText">
+	<h2>The best steak in Scottsdale!</h2>
+	<p class="p1">		
+		555 Mountainview Ave.<br>
+		Scottsdale, AZ 85260<br> 
+		(602) 789-5672<br>
+		Welcome to Rucker’s, which has been voted <b>Best Steakhouse in Scottsdale</b> four years running! At Rucker’s you can enjoy a <i>quality steak, amazing wine, and a quiet atmosphere</i> in a mountain-themed restaurant. Rucker’s has been a tradition in <b>Scottsdale since 1975</b> and is an amazing place to dine.
+			
+		</p>
+	
+		</div>
+	
+	<!--slide show text-->
+	
+<ul class="slid_container">
+	<li class="slid_item">
+		<div class="textcontent">
+			<h3>Welcome to Ruker's</h3><br><br><br>
+			<p-5>Have a look at our resturant</p-5>
+		</div>
+	</li>
+	
+	<li class="slid_item">
+		<div class="textcontent">
+			<h3>Our Signatrue Beer</h3><br><br><br>
+			<p-5> Come visit us and try our own<br> brewed beer Four Peak’s Hop Knot</p-5>
+		</div>
+	</li>
+	
+	<li class="slid_item">
+	<div class="textcontent">
+			<h3>Come for a light lunch</h3><br><br><br>
+			<p-5>And don't forget to try our very own<br>wine Arizona Stronghold’s Merlot </p-5>
+		</div>
+	</li>
+	
+	<li class="slid_item">
+	<div class="textcontent">
+			<h3>Have an early dinner</h3><br><br><br>
+			<p-5>And enjoy our Quaint atmosphere </p-5>
+		</div>
+	</li>
+	
+	<li class="slid_item">
+	<div class="textcontent">
+			<h3>Have a late dinner</h3><br><br><br>
+			<p-5> Our dinner atmosphere can be very romantic...</p-5>
+		</div>
+	</li>
+	
+	<li class="slid_item">
+	<div class="textcontent">
+			<h3>Don't forget the dessert</h3><br><br><br>
+			<p-5> Besides all the dessert we have a seasonal inspired Pie, <br>we have our monthly Chef’s Creation. You must try one... </p-5>
+		</div>
+	</li>
+</ul>
+	<!-----------------------button and text for popup reservation form---------------------->
+	<div class="reservation_form">
+		
+	<p><b>Click here to make a Reservation for your any Occasoin...</b></p>
+	</div>
+	
+	<button class="open-button" onclick="openForm()"><b>Contiue to Reservation</b></button>
+		 
+<!-------------------------------Popup form---------------------------->
+	<div class="form-popup" id="myForm">
+		<form action="/action_page.php" class="form-container">
+			
+				<h3>Rucker's Reservation</h3>
+				<P-1><i>Open seven days a week<br>Monday through Saturday from 11 AM to 10 PM<br> and on Sunday from 12 PM through 8 PM.</i></P-1>
+			<div class="resInfo">	  
+				<div class="fname">
+					<label for="fname"><b> *First Name: </b></label><br>
+					<input type="text" name="fname" required id="fname" placeholder="First Name">
+				</div>
+
+				<div class="lname">
+					<label for="lname"> <b>*Last Name:</b> </label><br>
+					<input type="text" required name="lname" id="lname" placeholder="last Name">
+				</div>
+
+				<div class="email">
+					<label for="email"><b> *Email: </b></label><br>
+					<input required type="text" id="email" placeholder="Email" name="email">
+				</div>
+
+				<div class="pnumber">
+					<label for="pnumber"><b> *Phone Number: </b></label><br>
+					<input required type="text" id="pnumber" placeholder="Phone Number" name="pnumber">
+				</div>
+
+				<div class="resdate">
+					<label for="resdate"> <b>*Reservation Date: </b></label><br> 
+					<input required type="date" id="start" name="startDate " value="2019-01-01" min="1900-01-01" max="2099-01-01">
+				</div>
+
+				<div class="restime">
+					<label for="restime"> <b>*Reservation Time: </b></label><br>
+					<input required type="time" id="restime" />
+				</div>
+
+				<div class="restable">
+					<label for="restable"><b> *Table Reservation: </b></label><br>
+					<select id="restable" required>
+						<option value="select">select</option>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				</div>
+
+				<div class="restype">
+					<label for="restype"><b> *Reservation Type: </b></label>
+					<select id="restype" required>
+						<option value="typeofoccasion">Type of Occasion</option>
+						<option value="birthdayanniversary">Birthday/Anniversary</option>
+						<option value="wedding">Wedding</option>
+						<option value="holiday">Holiday</option>
+						<option value="corporate">Corporate</option>
+						<option value="vip">Vip</option>
+						<option value="private">Private</option>
+						<option value="nightlife">Nightlife</option>
+						<option value="other">Other</option>
+					</select>
+				</div>
+				<div class="allergies">
+					<label for="allergies"><b> *Any Allergies: If yes please explain</b></label><br>
+					<select id="allergies" required>
+						<option value="select">select</option>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				</div>
+				<div>
+				<label class="comments">Any Special Instructions.</label>
+				<div class="textbox">
+					<textarea id="comments" name="message" maxlength="270"></textarea><br>
+				</div>
+				</div>	
+			</div>			
+				<div class="row7">	
+					<button type="reset" class="btnreservation" onclick="closeForm()">Place Your Reservation</button>
+					<button type="reset" class="btnCancel" onclick="closeForm()">Cancel</button>
+				</div>
+			</form>
+		</div>
+<script>
+function openForm() {
+	document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+	document.getElementById("myForm").style.display = "none";
+}	
+</script>
+	
+</body>
+</html>

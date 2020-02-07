@@ -1,0 +1,197 @@
+body {
+	font-family: sans-serif;
+	background-image: url(Images/time%20lapse%20photography%20of%20waterfalls.jpg);
+	background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin:0;
+	
+}
+
+/*----------------------fix-navbar------------------*/
+
+.nav-wrapper{
+	z-index: 3;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	margin: auto;
+}
+
+	.navbar{
+		z-index: 3;
+		position: fixed;
+		background-image: url(Images/Background.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 50px;
+		font-size: 15px;
+}
+.navbar a{
+		display: inline-block;
+		color: black;
+		font-weight: 600;
+		text-decoration: none;
+		text-align: center;
+		padding: 15px;
+		text-transform: uppercase;
+		font-family: verdan, sans-serif;
+	}
+span{
+	display: inline-block;
+	float: right;
+	padding-right: 10px;
+}	
+
+.navbar a:hover {
+  color: red;
+}
+.square{
+    position: absolute;
+    width: 100%;
+    
+    top:-280px;
+}
+.img-beer{
+	width: 300px;
+	position: absolute;
+	top: 360px;
+	left: 20px;
+	overflow: auto;
+	border-radius: 20px;
+	
+}
+.p3{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 300px;
+	font-style: italic;
+	font-weight: 800;
+	text-align: center;
+	top: 550px;
+	left: 20px;
+	
+}
+.img-wine{
+	position: absolute;
+	width: 300px;
+	top: 360px;
+	right: 20px;
+	overflow: auto;
+	border-radius: 20px;
+	
+}
+.p4{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 300px;
+	font-style: italic;
+	font-weight: 800;
+	text-align: center;
+	top: 550px;
+	right: 20px;
+	
+}
+
+/*----------------------Page header, adderss, and discription-------------------*/
+
+h1{
+	position: absolute;
+	margin: 0px;
+	height: 230px;
+	font-family: Aril, Helvetica, sans-serif;
+	color: red;
+	font-size: 90px;
+	width: 100%;
+	top: 100px;
+	text-align: center;
+}
+/*--------------------------------images and discription of meals--------------------------------------*/
+
+.stake-dinner{
+	position: absolute;
+	top: 335px;
+	left: 20px;
+	
+}
+.chicken-dinner{
+position: absolute;
+	top: 650px;
+	left: 20px;
+	padding-bottom: 10px;
+}
+#one{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	top: 535px;
+	left: 0px;
+	height: 80px;
+	width: 350px;
+	text-align: center;
+}
+.fish-dinner{
+	position: absolute;
+	top: 335px;
+	right: 20px;
+}
+#two{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	top: 555px;
+	right: 20px;
+	height: 85px;
+	width: 350px;
+	text-align: center;
+}
+.salad-closeup{
+	position: absolute;
+	top: 660px;
+	right: 20px;
+	margin-bottom: 20px;
+}
+.mousse-cake{
+	position: absolute;
+	top: 360px;
+	left: 645px;
+	
+}
+#three{
+	position: absolute;
+	background-image: url(Images/Background.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	top: 560px;
+	left: 620px;
+	height: 60px;
+	width: 350px;
+	text-align: center;
+}
+.ice-cream{
+	position: absolute;
+	top: 650px;
+	left: 645px;
+	
+}
+
+
+.stake-dinner,
+.chicken-dinner,
+.fish-dinner,
+.salad-closeup,
+.mousse-cake,
+.ice-cream {
+	width: 300px;
+	border-radius: 20px;
+}
+
+
+
